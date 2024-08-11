@@ -1,0 +1,4 @@
+<template>
+  <PrimaryHeader/>
+  <BestYourselfVersion/>
+</template>
