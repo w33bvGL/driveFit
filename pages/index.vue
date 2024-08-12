@@ -1,4 +1,6 @@
 <template>
-  <PrimaryHeader/>
-  <BestYourselfVersion/>
+  <PrimaryHeader />
+  <BestYourselfVersion />
+  <Advantages />
+  <Programs />
 </template>

@@ -1,8 +1,8 @@
 <template>
-  <header class="w-full sticky top-0 bg-black">
+  <header class="w-full sticky top-0 bg-black z-10">
     <div class="container max-w-8xl mx-auto flex justify-between py-6">
       <div class="flex items-center">
-        <img src="/img/logo.png" alt="">
+        <NuxtImg format="webp" loading="lazy" src="/img/logo.png" alt="Drive"></NuxtImg>
       </div>
       <nav class="flex gap-5 uppercase text-white items-center font-sans text-sm font-medium">
         <a href="#programs" class="hover:text-vlada-bordo-100 transition-colors">Programs</a>

@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        '8xl': '1440px',
+        '8xl': 'calc(1440px - 50px)',
       },
       aspectRatio: {
         '1/3': '1/1.4',
@@ -17,6 +17,7 @@ module.exports = {
       },
       colors: {
         'vlada-bordo-100': '#7C1C1C',
+        'vlada-bordo-200': '#110E0E',
       },
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
