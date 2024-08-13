@@ -2,8 +2,7 @@
   <section class="advantages bg-black">
     <div class="container mx-auto max-w-8xl py-12 flex gap-10 justify-between">
       <div v-for="(advantage, index) in advantages" :key="index" class="text-white flex flex-col items-start">
-        <NuxtImg :format="advantage.format" :loading="advantage.loading" :src="advantage.src" :alt="advantage.alt"
-          class="mb-3 h-20 pointer-events-none select-none"></NuxtImg>
+        <img :src="advantage.src" :alt="advantage.alt" class="mb-3 h-20 pointer-events-none select-none"></img>
         <h3 class="text-xl font-medium uppercase text-left text-white mb-3">
           {{ advantage.title }}
         </h3>
@@ -17,6 +16,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 export default defineComponent({
+  name: 'advantages',
   data() {
     return {
       advantages: [

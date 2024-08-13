@@ -3,4 +3,6 @@
   <BestYourselfVersion />
   <Advantages />
   <Programs />
+  <Prices />
+  <Team/>
 </template>

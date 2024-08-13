@@ -1,10 +1,10 @@
 <template>
   <header class="w-full sticky top-0 bg-black z-10">
-    <div class="container max-w-8xl mx-auto flex justify-between py-6">
+    <div class="container max-w-8xl mx-auto flex justify-between py-3 shadow-2xl">
       <div class="flex items-center">
-        <NuxtImg format="webp" loading="lazy" src="/img/logo.png" alt="Drive"></NuxtImg>
+        <img src="/img/logo.png" alt="Drive">
       </div>
-      <nav class="flex gap-5 uppercase text-white items-center font-sans text-sm font-medium">
+      <nav class="flex gap-5 uppercase text-white items-center font-sans text-sm font-light">
         <a href="#programs" class="hover:text-vlada-bordo-100 transition-colors">Programs</a>
         <a href="#testimonials" class="hover:text-vlada-bordo-100 transition-colors">Testimonials</a>
         <a href="#contact" class="hover:text-vlada-bordo-100 transition-colors">Contact</a>
@@ -16,3 +16,9 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  name: 'primaryHeader',
+};
+</script>
