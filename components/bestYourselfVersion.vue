@@ -1,19 +1,17 @@
 <template>
-  <section class="w-full bg-black" style="height: 707px;">
-    <div class="container max-w-8xl mx-auto flex justify-between">
+  <section class="w-full bg-black" >
+    <div class="container max-w-8xl mx-auto flex justify-between" style="min-height: 672px;">
       <div class="info flex items-start flex-col justify-center">
         <!-- <h1 class="text-white text-6xl uppercase font-medium mb-8"><span class="text-vlada-bordo-100">become</span> the
           <span class="text-vlada-bordo-100">Best</span> <br> <span class="text-vlada-bordo-100">Version</span> of
           yourself
         </h1> -->
-        <h1 class="text-white text-5xl uppercase font-bold mb-8"><span class="text-vlada-bordo-100">become</span> a
-          <span class="text-vlada-bordo-100">better</span> <br> <span class="text-vlada-bordo-100">person</span> than
-          you are
+        <h1 class="text-white text-6xl uppercase font-semibold mb-8 font-oswald">become a <span class="text-7xl text-vlada-bordo-100 font-oswald">better</span> person <br> than <span class="text-7xl text-vlada-bordo-100 font-oswald">you are</span>
         </h1>
-        <h3 class="font-extralight text-white text-xl mb-8">Start taking care of your health and fitness<br> right now with
+        <h3 class="text-white text-xl mb-8">Start taking care of your health and fitness<br> right now with
           our workouts!</h3>
         <a href="#purchase"
-          class="text-black bg-white w-auto py-3 px-4 font-medium rounded-full mb-8 uppercase transition-colors hover:bg-vlada-bordo-100  hover:text-white ">join
+          class="font-oswald text-2xl text-black bg-white w-auto py-3 px-9 font-medium rounded-full mb-8 uppercase transition-colors hover:bg-vlada-bordo-100  hover:text-white ">join
           now</a>
         <!-- <div class="flex gap-9">
           <div>
