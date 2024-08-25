@@ -13,10 +13,10 @@
         <a href="#purchase"
           class="font-oswald text-2xl text-black bg-white w-auto py-3 px-9 font-medium rounded-full mb-8 uppercase transition-colors hover:bg-vlada-bordo-100  hover:text-white ">join
           now</a>
-        <!-- <div class="flex gap-9">
+        <div class="flex gap-9">
           <div>
             <h3 class="font-medium text-white text-2xl mb-2">35 000+</h3>
-            <h5 class="font-light text-white text-base">People have been<br> through our training<br> programs</h5>
+            <h5 class="text-white text-base">People have been<br> through our training<br> programs</h5>
           </div>
           <div>
             <h3 class="font-medium text-white text-2xl mb-2">200+ reviews</h3>
@@ -25,7 +25,7 @@
                 alt="Drive fit best users in yourself version programm">
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <div class="relative pointer-events-none select-none overflow-y-hidden">
         <img class="absolute" src="/img/fit-woman-measuring-perfect-shape-beautiful-body.png"
