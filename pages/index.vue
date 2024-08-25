@@ -4,5 +4,5 @@
   <Advantages />
   <Programs />
   <Prices />
-  <Team/>
+  <Team />
 </template>
