@@ -73,55 +73,55 @@ export default defineComponent({
     },
     mainBlockClass: {
       type: String,
-      default: false
+      required: false
     },
     textContainerClass: {
       type: String,
-      default: false
+      required: false
     },
     imageContainerClass: {
       type: String,
-      default: false
+      required: false
     },
     topLineTop: {
       type: String,
-      default: false
+      required: false
     },
     rightLineTop: {
       type: String,
-      default: false
+      required: false
     },
     bottomLineTop: {
       type: String,
-      default: false
+      required: false
     },
     leftLineTop: {
       type: String,
-      default: false
+      required: false
     },
     topLineBottom: {
       type: String,
-      default: false
+      required: false
     },
     rightLineBottom: {
       type: String,
-      default: false
+      required: false
     },
     bottomLineBottom: {
       type: String,
-      default: false
+      required: false
     },
     leftLineBottom: {
       type: String,
-      default: false
+      required: false
     },
     imageClass1: {
       type: String,
-      default: false
+      required: false
     },
     imageClass2: {
       type: String,
-      default: false
+      required: false
     },
   },
 });
