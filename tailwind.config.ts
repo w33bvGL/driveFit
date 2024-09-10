@@ -16,7 +16,7 @@ module.exports = {
         'custom-feed-gradient-t': 'linear-gradient(0deg, rgba(9,9,11,1) 10%, rgba(0,0,0,0) 100%)',
       },
       colors: {
-        'vlada-bordo-100': '#7C1C1C',
+        'vlada-bordo-100': '#EB2121',
         'vlada-bordo-200': '#110E0E',
       },
       fontFamily: {
