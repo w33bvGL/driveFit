@@ -1,7 +1,8 @@
 <template>
   <section class="advantages bg-black">
     <div class="container mx-auto max-w-8xl py-12 flex gap-10 justify-between">
-      <div v-for="(advantage, index) in advantages" :key="index" class="text-white flex flex-col items-start">
+      <div data-aos="fade-up" v-for="(advantage, index) in advantages" :key="index" data-aos-once="true"
+        :data-aos-delay="advantage.duration" class="text-white flex flex-col items-start">
         <img :src="advantage.src" :alt="advantage.alt" class="mb-3 h-20 pointer-events-none select-none"></img>
         <h3 class="font-oswald text-2xl font-semibold uppercase text-left text-white mb-1">
           {{ advantage.title }}
@@ -28,6 +29,7 @@ export default defineComponent({
           alt: "We will adjust your diet drinking regime and sleep",
           title: "Drinking regime",
           description: "We will adjust your diet<br> drinking regime and sleep",
+          duration: 100,
         },
         {
           format: "webp",
@@ -36,6 +38,7 @@ export default defineComponent({
           alt: "We have a million good reviews and the results",
           title: "Quality",
           description: "We have a million good<br> reviews and the results",
+          duration: 200,
         },
         {
           format: "webp",
@@ -44,6 +47,7 @@ export default defineComponent({
           alt: "We have a million good reviews and the results",
           title: "Victory",
           description: "We have a million good<br> reviews and the results",
+          duration: 300,
         },
         {
           format: "webp",
@@ -52,6 +56,7 @@ export default defineComponent({
           alt: "Our trainers will select training sessions for you",
           title: "Training",
           description: "Our trainers will select<br> training sessions for you",
+          duration: 400,
         },
       ],
     };
