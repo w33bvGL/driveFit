@@ -6,7 +6,7 @@
           Questions
         </h2>
       </div>
-      <Collapse data-aos="fade-in" is-open="true" id="01" type="primary" title="How often should I train?"
+      <Collapse data-aos="fade-in" :is-open="true" id="01" type="primary" title="How often should I train?"
         description="The optimal amount of training is 4-5 per week. Of course, you can train more often, if your body allows it. But it is worth remembering that rest should not be neglected, high-quality recovery is the key to effective training. For beginners, 3 workouts per week will be enough." />
       <Collapse data-aos="fade-in" id="02" type="primary" title="Will I be able to lose weight without a diet?"
         description="It’s possible to lose weight without dieting but probably not without making changes to your diet. This answer may seem mysterious, but listen to me. You may find that you have more options than you think. Research shows that following a weight loss diet often backfires. In fact, this is due to further weight gain and obesity" />
