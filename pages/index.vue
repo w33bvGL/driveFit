@@ -6,4 +6,6 @@
   <Prices />
   <Team />
   <Faq />
+  <Feedback/>
+  <PrimaryFooter/>
 </template>
