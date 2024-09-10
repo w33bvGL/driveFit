@@ -2,7 +2,7 @@
   <section class="bg-vlada-bordo-200 text-white relative pt-16 pb-44">
     <div class="flex justify-between items-center container max-w-8xl mx-auto relative" :class="mainBlockClass">
       <!-- Линии -->
-      <div class="container max-w-8xl mx-auto absolute h-full">
+      <div class="container max-w-8xl mx-auto absolute h-full" data-aos="fade-in" data-aos-once="true">
         <div style="height: 2px;" class="w-[109%] right-0 bg-vlada-bordo-100 absolute top-[-80px]" :class="topLineTop">
         </div>
         <div style="height: 2px;" class="w-[109%] left-0 bg-vlada-bordo-100 absolute top-[-80px]"
@@ -33,16 +33,21 @@
 
       <!-- Текстовая часть -->
       <div :class="textContainerClass">
-        <h2 class="text-vlada-bordo-100 text-6xl uppercase font-semibold mb-5 font-oswald">{{ title }}</h2>
-        <p class="text-lg pb-8">{{ description }}</p>
-        <NuxtLink href="#purchase" class="cta-button">more detailed</NuxtLink>
+        <h2 data-aos="fade-up" data-aos-once="true" class="text-vlada-bordo-100 text-6xl uppercase font-semibold mb-5 font-oswald">{{ title
+          }}</h2>
+        <p class="text-lg pb-8" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">{{ description }}</p>
+        <div data-aos="fade-up" data-aos-delay="150" data-aos-once="true">
+          <NuxtLink href="#purchase" class="cta-button">more detailed</NuxtLink>
+        </div>
       </div>
 
       <!-- Изображения -->
       <div :class="imageContainerClass" style="min-height: 489px;">
         <div class="relative pointer-events-none select-none">
-          <img :src="imageSrc1" :alt="title" class="w-full h-auto" :class="imageClass1">
-          <img :src="imageSrc2" :alt="title" class="absolute" :class="imageClass2">
+          <img data-aos="fade-in" data-aos-once="true" :src="imageSrc1" :alt="title" class="w-full h-auto"
+            :class="imageClass1">
+          <img data-aos="fade-up" data-aos-once="true" :src="imageSrc2" :alt="title" class="absolute"
+            :class="imageClass2">
         </div>
       </div>
     </div>

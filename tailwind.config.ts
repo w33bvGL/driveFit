@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         'vlada-bordo-100': '#EB2121',
         'vlada-bordo-200': '#110E0E',
+        'vlada-bordo-300': '#7c1c1c',
       },
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],

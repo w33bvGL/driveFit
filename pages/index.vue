@@ -5,4 +5,5 @@
   <Programs />
   <Prices />
   <Team />
+  <Faq />
 </template>
