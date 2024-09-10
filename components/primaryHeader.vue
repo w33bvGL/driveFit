@@ -4,7 +4,8 @@
       <div class="flex items-center" data-aos="zoom-in" data-aos-once="true">
         <img class="pointer-events-none select-none" src="/img/logo.png" alt="Drive">
       </div>
-      <nav data-aos="fade-in" data-aos-once="true" class="hidden md:flex gap-5 uppercase text-white items-center font-sans text-sm font-light">
+      <nav data-aos="fade-in" data-aos-once="true"
+        class="hidden md:flex gap-5 uppercase text-white items-center font-sans text-sm font-light">
         <a href="#programs" class="hover:text-vlada-bordo-100 transition-colors font-semibold">Programs</a>
         <a href="#testimonials" class="hover:text-vlada-bordo-100 transition-colors font-semibold">Testimonials</a>
         <a href="#contact" class="hover:text-vlada-bordo-100 transition-colors font-semibold">Contact</a>

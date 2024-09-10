@@ -1,7 +1,7 @@
 <template>
   <section class="prices bg-vlada-bordo-200 pb-10" id="program">
     <div class="container max-w-8xl mx-auto flex justify-between">
-      <div v-for="(program, index) in programs" :key="index" data-aos="fade-up" data-aos-once="true"
+      <div v-for="(program, index) in programs" :key="index" data-aos="fade-up"
         :class="['text-white flex flex-col items-start w-full', program.borderClass, program.paddingClass]">
         <h2 class="text-vlada-bordo-100 text-6xl uppercase font-semibold mb-5 font-oswald text-center w-full">{{
           program.title }}</h2>

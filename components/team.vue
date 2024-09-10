@@ -1,7 +1,8 @@
 <template>
   <section class="team bg-vlada-bordo-200 pb-10">
     <div class="container mx-auto max-w-8xl">
-      <h2 data-aos="fade-up" class="text-vlada-bordo-100 text-5xl uppercase font-bold pb-5 pt-32 text-center">Our team</h2>
+      <h2 data-aos="fade-up" class="text-vlada-bordo-100 text-5xl uppercase font-bold pb-5 pt-32 text-center">Our team
+      </h2>
       <h3 data-aos="fade-up" data-aos-delay="100" class="text-lg pb-8 font-extralight text-white text-center">
         Our coaches are just incredible professionals! Each workout is a boost of energy, motivation, and a great mood.
         An<br>individual approach to everyone, attention to detail, and a sincere desire to help achieve their goals —
@@ -9,13 +10,16 @@
       </h3>
       <div class="w-full">
         <div class="w-full flex justify-between">
-          <div v-for="(trainer, index) in trainers" :key="index"  data-aos="fade-in" data-aos-delay="150" class="relative group">
+          <div v-for="(trainer, index) in trainers" :key="index" data-aos="fade-in" data-aos-delay="150"
+            class="relative group">
             <div class="relative overflow-hidden rounded-full">
               <img :src="trainer.image" :alt="trainer.name" class="group-hover:scale-110 transition-transform">
-              <div class="border-vlada-bordo-100 absolute top-0 w-full h-full border-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+              <div
+                class="border-vlada-bordo-100 absolute top-0 w-full h-full border-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
               </div>
             </div>
-            <p class="text-center uppercase text-xl mt-3 text-vlada-bordo-100 group-hover:font-semibold transition-all">{{ trainer.name }}</p>
+            <p class="text-center uppercase text-xl mt-3 text-vlada-bordo-100 group-hover:font-semibold transition-all">
+              {{ trainer.name }}</p>
             <p class="text-center font-extralight text-white">{{ trainer.profession }}</p>
           </div>
         </div>

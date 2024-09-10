@@ -1,8 +1,8 @@
 <template>
   <section class="advantages bg-black">
     <div class="container mx-auto max-w-8xl py-12 flex gap-10 justify-between">
-      <div data-aos="fade-up" v-for="(advantage, index) in advantages" :key="index" data-aos-once="true"
-        :data-aos-delay="advantage.duration" class="text-white flex flex-col items-start">
+      <div data-aos="fade-up" v-for="(advantage, index) in advantages" :key="index" :data-aos-delay="advantage.duration"
+        class="text-white flex flex-col items-start">
         <img :src="advantage.src" :alt="advantage.alt" class="mb-3 h-20 pointer-events-none select-none"></img>
         <h3 class="font-oswald text-2xl font-semibold uppercase text-left text-white mb-1">
           {{ advantage.title }}
